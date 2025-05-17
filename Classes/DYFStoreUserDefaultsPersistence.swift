@@ -31,6 +31,7 @@ fileprivate let kUserDefaults = UserDefaults.standard
 /// The transaction persistence using the UserDefaults.
 open class DYFStoreUserDefaultsPersistence {
     
+    public init(){}
     /// Loads an array whose elements are the `Data` objects from the shared preferences search list.
     ///
     /// - Returns: An array whose elements are the `Data` objects.
